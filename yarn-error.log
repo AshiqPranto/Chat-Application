@@ -1,0 +1,62 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js start
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin;C:\intelFPGA\20.1\modelsim_ase\win32aloem;C:\Users\ASUS\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files\OpenSSL-Win64\bin;
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  17.2.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\Pranto\Web development\Nodejs\Chat-Application\package.json: Unexpected token } in JSON at position 240
+      at JSON.parse (<anonymous>)
+      at C:\Users\ASUS\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\ASUS\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\ASUS\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "chat-application",
+    "version": "1.0.0",
+    "description": "Chat-Application With node js",
+    "main": "app.js",
+    "scripts": {
+      "start": "NODE_ENV=development nodemon app.js",
+      "prod": "NODE_ENV=production node app.js",
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/AshiqPranto/Chat-Application.git"
+    },
+    "author": "Pranto",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/AshiqPranto/Chat-Application/issues"
+    },
+    "homepage": "https://github.com/AshiqPranto/Chat-Application#readme",
+    "dependencies": {
+      "bcrypt": "^5.0.1",
+      "cookie-parser": "^1.4.6",
+      "dotenv": "^16.0.0",
+      "ejs": "^3.1.6",
+      "express": "^4.17.3",
+      "express-validator": "^6.14.0",
+      "http-errors": "^2.0.0",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^6.3.0",
+      "multer": "^1.4.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
